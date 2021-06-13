@@ -37,10 +37,8 @@ Hit help button to find out more about how to use me</b>""",
                                         InlineKeyboardButton(
                                             "Help", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "Channel", url="https://t.me/Infinity_BOTs")
-                                    ],[
-                                      InlineKeyboardButton(
-                                            "Source Code", url="https://github.com/ImJanindu/AnyDL-Bot")
+                                            "Channel", url="https://t.me/chezrred")
+                                    ],
                                     ]]
                             ),        
             disable_web_page_preview=True,        
