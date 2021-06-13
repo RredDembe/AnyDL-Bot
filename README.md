@@ -1,6 +1,6 @@
-# AnyDL Bot ❤
+# allviddown Bot ❤
 
-This bot can download video or audio from youtube and more video sites quickly (custom thumbnail support) Can be found in telegram as [@JEAnyDLBot](https://t.me/JEAnyDLBot)
+This bot can download video or audio from youtube and more video sites quickly (custom thumbnail support) Can be found in telegram as [@allviddownbot](https://t.me/Rred212)
 
 ### Deploy to Heroku 🏃‍♂
 
@@ -16,4 +16,4 @@ This bot can download video or audio from youtube and more video sites quickly (
 
 ### Developers:
 
-- [@ImJanindu](https://t.me/ImJanindu)
+- [@Rred212](https://t.me/Rred212)
