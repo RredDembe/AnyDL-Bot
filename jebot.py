@@ -29,8 +29,8 @@ async def start(client, message):
    if message.chat.type == 'private':
        await Jebot.send_message(
                chat_id=message.chat.id,
-               text="""<b>Hey There, I'm AnyDL Bot
-I can download video or audio from Youtube, Pornhub and Xhamster. Made by @JEBotZ.
+               text="""<b>Hey There, I'm Dembebot_bot V1.0
+I can download video or audio from Youtube, Pornhub and Xhamster. Made by @Rred212.
 Hit help button to find out more about how to use me</b>""",   
                             reply_markup=InlineKeyboardMarkup(
                                 [[
