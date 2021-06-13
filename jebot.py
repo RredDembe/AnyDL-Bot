@@ -51,9 +51,9 @@ async def help(client, message):
     if message.chat.type == 'private':   
         await Jebot.send_message(
                chat_id=message.chat.id,
-               text="""<b>AnyDL Bot Help!
+               text="""<b>Dembe Bot Help!
 Just send a Youtube, Pornhub or Xhamster video url to download it in video or audio format!
-Join @Infinity_BOTs</b>""",
+Join @chezrred</b>""",
         reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
@@ -62,7 +62,7 @@ Join @Infinity_BOTs</b>""",
                                             "About", callback_data="about"),
                                   ],[
                                         InlineKeyboardButton(
-                                            "Source Code", url="https://github.com/ImJanindu/AnyDL-Bot")
+                                            "Support Account", url="https://t.me/Rred212")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -73,17 +73,17 @@ async def about(client, message):
     if message.chat.type == 'private':   
         await Jebot.send_message(
                chat_id=message.chat.id,
-               text="""<b>About AnyDL Bot!</b>
-<b>♞ Developer:</b> <a href="https://t.me/ImJanindu">Jason</a>
-<b>♞ Support:</b> <a href="https://t.me/InfinityBOTs_Support">Infinity BOTs Support</a>
-<b>♞ Library:</b> <a href="https://github.com/pyrogram/pyrogram">Pyrogram</a>
-<b>Join @Infinity_BOTs</b>""",
+               text="""<b>About Dembe Bot!</b>
+<b>♞ Developer:</b> <a href="https://t.me/Rred212">Rred</a>
+<b>♞ Support:</b> <a href="https://t.me/Rred212">Support</a>
+<b>♞ Ads:</b> <a href="https://t.me/Rred212">Promote</a>
+<b>Join @chez_rred</b>""",
      reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
                                             "Back", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "Source Code", url="https://github.com/ImJanindu/AnyDL-Bot")
+                                            "Support Account", url="https://t.me/Rred212")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
