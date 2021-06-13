@@ -38,7 +38,9 @@ Hit help button to find out more about how to use me</b>""",
                                             "Help", callback_data="help"),
                                         InlineKeyboardButton(
                                             "Channel", url="https://t.me/chezrred")
-                                    ],
+                                    ],[
+                                      InlineKeyboardButton(
+                                            "Support Account", url="https://t.me/Rred212")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
