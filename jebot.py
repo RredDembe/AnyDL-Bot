@@ -29,19 +29,18 @@ async def start(client, message):
    if message.chat.type == 'private':
        await Jebot.send_message(
                chat_id=message.chat.id,
-               text="""<b>Hey There, I'm Dembebot_bot [BOT]
-
-I can download video or audio from Youtube, Pornhub and Xhamster. Made by @Rred212 and this is beta version 1.0
-
+               text="""<b>Hey There, I'm AnyDL Bot
+I can download video or audio from Youtube, Pornhub and Xhamster. Made by @JEBotZ.
 Hit help button to find out more about how to use me</b>""",   
                             reply_markup=InlineKeyboardMarkup(
                                 [[
-                                       
                                         InlineKeyboardButton(
-                                            "Channel", url="https://t.me/chezrred")
+                                            "Help", callback_data="help"),
+                                        InlineKeyboardButton(
+                                            "Channel", url="https://t.me/Infinity_BOTs")
                                     ],[
                                       InlineKeyboardButton(
-                                            "None", url="#")
+                                            "Source Code", url="https://github.com/ImJanindu/AnyDL-Bot")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -52,16 +51,18 @@ async def help(client, message):
     if message.chat.type == 'private':   
         await Jebot.send_message(
                chat_id=message.chat.id,
-               text="""<b>@Dembebot_bot
-
+               text="""<b>AnyDL Bot Help!
 Just send a Youtube, Pornhub or Xhamster video url to download it in video or audio format!
-
-Join @chezrred</b>""",
+Join @Infinity_BOTs</b>""",
         reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
                                             "Back", callback_data="start"),
-                                        
+                                        InlineKeyboardButton(
+                                            "About", callback_data="about"),
+                                  ],[
+                                        InlineKeyboardButton(
+                                            "Source Code", url="https://github.com/ImJanindu/AnyDL-Bot")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -73,19 +74,16 @@ async def about(client, message):
         await Jebot.send_message(
                chat_id=message.chat.id,
                text="""<b>About AnyDL Bot!</b>
-
-<b>♞ Developer:</b> <a href="https://t.me/Rred212">Rred</a>
-
-<b>♞ Support:</b> <a href="https://t.me/Rred212">Support</a>
-
-<b>♞ Library:</b> <a href="https://t.me/chez_rred">Canal</a>
-
-<b>Join @chezrred</b>""",
+<b>♞ Developer:</b> <a href="https://t.me/ImJanindu">Jason</a>
+<b>♞ Support:</b> <a href="https://t.me/InfinityBOTs_Support">Infinity BOTs Support</a>
+<b>♞ Library:</b> <a href="https://github.com/pyrogram/pyrogram">Pyrogram</a>
+<b>Join @Infinity_BOTs</b>""",
      reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
                                             "Back", callback_data="help"),
-                                       
+                                        InlineKeyboardButton(
+                                            "Source Code", url="https://github.com/ImJanindu/AnyDL-Bot")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -105,7 +103,7 @@ async def ytdl_with_button(c: Client, message: Message):
             if user.status == "kicked":
                 await c.send_message(
                     chat_id=message.chat.id,
-                    text="Sorry, You are Banned to use me. Contact my [Support Group](https://t.me/Rred212).",
+                    text="Sorry, You are Banned to use me. Contact my [Support Group](https://t.me/InfinityBots_Support).",
                     parse_mode="markdown",
                     disable_web_page_preview=True
                 )
@@ -127,7 +125,7 @@ async def ytdl_with_button(c: Client, message: Message):
         except Exception:
             await c.send_message(
                 chat_id=message.chat.id,
-                text="Something went Wrong. Contact my [Support Account](https://t.me/Rred212).",
+                text="Something went Wrong. Contact my [Support Group](https://t.me/InfinityBots_Support).",
                 parse_mode="markdown",
                 disable_web_page_preview=True)
             return
