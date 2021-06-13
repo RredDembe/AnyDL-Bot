@@ -29,8 +29,8 @@ async def start(client, message):
    if message.chat.type == 'private':
        await Jebot.send_message(
                chat_id=message.chat.id,
-               text="""<b>Hey There, I'm Dembebot_bot V1.0
-I can download video or audio from Youtube, Pornhub and Xhamster. Made by @Rred212.
+               text="""<b>Hey There, I'm allviddownbot V1.0
+I can download video or audio from Youtube, Pornhub, XNXX and Xhamster. and more in the future.
 Hit help button to find out more about how to use me</b>""",   
                             reply_markup=InlineKeyboardMarkup(
                                 [[
@@ -51,9 +51,9 @@ async def help(client, message):
     if message.chat.type == 'private':   
         await Jebot.send_message(
                chat_id=message.chat.id,
-               text="""<b>Dembe Bot Help!
+               text="""<b>allviddownbot Help!
 Just send a Youtube, Pornhub or Xhamster video url to download it in video or audio format!
-Join @chezrred</b>""",
+</b>""",
         reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
@@ -73,7 +73,7 @@ async def about(client, message):
     if message.chat.type == 'private':   
         await Jebot.send_message(
                chat_id=message.chat.id,
-               text="""<b>About Dembe Bot!</b>
+               text="""<b>About allviddownbot!</b>
 <b>♞ Developer:</b> <a href="https://t.me/Rred212">Rred</a>
 <b>♞ Support:</b> <a href="https://t.me/Rred212">Support</a>
 <b>♞ Ads:</b> <a href="https://t.me/Rred212">Promote</a>
