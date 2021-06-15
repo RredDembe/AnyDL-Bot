@@ -29,11 +29,11 @@ async def start(client, message):
    if message.chat.type == 'private':
        await Jebot.send_message(
                chat_id=message.chat.id,
-               text="""<b>🇫🇷 Je suis allviddownbot V1.1
+               text="""<b>🇫🇷 Je suis allviddownbot V1.1.1
 
 Je peux télécharger de la vidéo ou de l'audio de Youtube, Pornhub, XNXX et Xhamster.
 
-Appuyez sur le bouton d' aide pour en savoir plus sur la façon de m'utiliser 🇺🇸🇬🇧Hey There, I'm allviddownbot V1.1
+Appuyez sur le bouton d' aide pour en savoir plus sur la façon de m'utiliser 🇺🇸🇬🇧Hey There, I'm allviddownbot V1.1.1
 
 I can download video or audio from Youtube, Pornhub, XNXX and Xhamster. 
 
