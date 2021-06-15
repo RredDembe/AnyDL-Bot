@@ -29,7 +29,7 @@ async def start(client, message):
    if message.chat.type == 'private':
        await Jebot.send_message(
                chat_id=message.chat.id,
-               text="""<b>Hey There, I'm allviddownbot V1.0
+               text="""<b>Hey There, I'm allviddownbot V1.1
 I can download video or audio from Youtube, Pornhub, XNXX and Xhamster. and more in the future.
 Hit help button to find out more about how to use me</b>""",   
                             reply_markup=InlineKeyboardMarkup(
