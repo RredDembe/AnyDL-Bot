@@ -31,7 +31,7 @@ async def start(client, message):
                chat_id=message.chat.id,
                text="""<b>🇫🇷 Je suis allviddownbot V1.1.1
 
-Je peux télécharger de la vidéo ou de l'audio de Youtube, Pornhub, XNXX et Xhamster.
+Je peux télécharger de la vidéo ou de l'audio de Youtube, Pornhub, XNXX et Xhamster et plus dans le future.
 
 Appuyez sur le bouton d' aide pour en savoir plus sur la façon de m'utiliser 
 
